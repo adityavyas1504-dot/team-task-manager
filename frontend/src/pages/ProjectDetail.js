@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getProject, updateProject, deleteProject, getTasks, createTask, updateTask, deleteTask, addMember, removeMember, updateMemberRole } from '../utils/api';
 import { useAuth } from '../context/AuthContext';
